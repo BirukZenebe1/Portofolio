@@ -10,30 +10,35 @@ export default function Portfolio() {
       description:
         "Medical chatbot using LLaMA 2 and Gradio. Uses T4 GPU and aboonaji dataset for structured interaction.",
       link: "https://a161f999dcb3274e2b.gradio.live",
+      image: "https://plus.unsplash.com/premium_photo-1732628348854-56a54f1da2ad?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
       title: "Portfolio Website",
       description:
         "Built with React and Tailwind. Demonstrates UI/UX capabilities with clean transitions and layouts.",
       link: "",
+      image: "https://images.unsplash.com/photo-1620046311691-5d93d65f69e9?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
       title: "TED Talk Lite",
       description:
         "TED talk clone focusing on UI/UX design using Figma and developed with Webflow.",
       link: "https://preview.webflow.com/preview/my-project-a9dc18?...",
+      image: "https://images.unsplash.com/photo-1646189480378-cd0ba691cb4e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
       title: "Persona AI Recommender",
       description:
         "E-commerce recommender built with JavaScript, HTML/CSS, and Python to suggest items based on user history.",
       link: "https://github.com/BirukZenebe1/41697_..._persona_ai_project",
+      image: "https://images.unsplash.com/photo-1589254065909-b7086229d08c?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
       title: "Landing Page for Circle",
       description:
         "UI/UX landing page built in Figma and Webflow, showcasing responsive design principles.",
       link: "https://preview.webflow.com/preview/circle-company-485b32?...",
+      image: "https://images.unsplash.com/photo-1632516643720-e7f5d7d6ecc9?q=80&w=1011&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
   ];
 
@@ -60,8 +65,7 @@ export default function Portfolio() {
   };
 
   return (
-    <div className="relative overflow-hidden p-6 max-w-6xl mx-auto space-y-24">
-
+    <div className="relative overflow-hidden p-16 max-w-6xl mx-auto space-y-24">
       {/* Background blob effect */}
       <div className="absolute top-[-100px] left-[-100px] w-[400px] h-[400px] bg-purple-300 rounded-full opacity-30 blur-3xl animate-pulse z-0" />
       <div className="absolute bottom-[-120px] right-[-120px] w-[400px] h-[400px] bg-pink-300 rounded-full opacity-20 blur-3xl animate-pulse z-0" />
@@ -97,6 +101,75 @@ export default function Portfolio() {
           </a>
         </motion.div>
       </section>
+        {/* Education Section */}
+<section>
+  <h2 className="text-4xl font-semibold text-center mb-12">🎓 Education</h2>
+  <div className="space-y-6 max-w-3xl mx-auto">
+  <motion.div
+      className="bg-white rounded-lg shadow-md p-6 border-l-4 border-purple-500"
+      initial={{ opacity: 0, x: -30 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      viewport={{ once: true }}
+      transition={{ duration: 0.6 }}
+    >
+      <h3 className="text-xl font-semibold">B.Sc. in Information Technology</h3>
+      <p className="text-sm text-gray-500"> Mekelle Institute of technology, Ethiopia (2019-2021)</p>
+      <p className="text-gray-700 mt-2">Web development, UI/UX Interfaces,Human-Computer Interaction, Cloud oriented web services. How ever couldn't complete due to war in Ethiopia.😔 </p>
+    </motion.div>
+    <motion.div
+      className="bg-white rounded-lg shadow-md p-6 border-l-4 border-purple-500"
+      initial={{ opacity: 0, x: -30 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      viewport={{ once: true }}
+      transition={{ duration: 0.6 }}
+    >
+      <h3 className="text-xl font-semibold">B.Sc. in Computer Science</h3>
+      <p className="text-sm text-gray-500">University of Vizja, Poland (Expected Sept 2025)</p>
+      <p className="text-gray-700 mt-2">Focused on AI, Machine Learning, UI/UX and Human-Computer Interaction. Thesis on fine-tuning LLaMA 2 for medical chatbot applications. and graduating on September.🥳 </p>
+    </motion.div>
+  </div>
+</section>
+
+{/* Experience Section */}
+<section>
+  <h2 className="text-4xl font-semibold text-center mb-12">💼 Experience</h2>
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl mx-auto">
+    <motion.div
+      className="bg-white rounded-lg shadow-md p-6 border-l-4 border-blue-500"
+      initial={{ opacity: 0, y: 30 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true }}
+      transition={{ duration: 0.6 }}
+    >
+      <h3 className="text-xl font-semibold">Frontend web Developer (Addis Abeba ,Ethiopia)</h3>
+      <p className="text-sm text-gray-500"> Sheba academy - September 2021 — June2021 </p>
+      <p className="text-gray-700 mt-2">Built responsive web apps using React, and Webflow, delivered clean UI/UX and performance,Wrote custom HTML and JavaScript for existing websites. 😌🏆</p>
+    </motion.div>
+    <motion.div
+      className="bg-white rounded-lg shadow-md p-6 border-l-4 border-blue-500"
+      initial={{ opacity: 0, y: 30 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true }}
+      transition={{ duration: 0.6 }}
+    >
+      <h3 className="text-xl font-semibold">Data Analysis Intern - Remote (Dubai, UAE)</h3>
+      <p className="text-sm text-gray-500">Ruha LLC - April 2024 — December 2024</p>
+      <p className="text-gray-700 mt-2">Completed my Internship at Ruha LLC, Conducted thorough data validation, performed regular audits on existing databases and enhanced data visualization capabilities.🤩✨</p>
+    </motion.div>
+    <motion.div
+      className="bg-white rounded-lg shadow-md p-6 border-l-4 border-green-500"
+      initial={{ opacity: 0, y: 30 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true }}
+      transition={{ duration: 0.8 }}
+    >
+      <h3 className="text-xl font-semibold">AI Project Contributor (Warsaw,Poland)</h3>
+      <p className="text-sm text-gray-500">Self-Initiated — 2024</p>
+      <p className="text-gray-700 mt-2">Developed medical chatbot and recommender systems using Python, Gradio, and LLaMA 2. Deployed demos with Google Colab and shared via GitHub. 💪💥</p>
+    </motion.div>
+  </div>
+</section>
+
 
       {/* Projects Section */}
       <section>
@@ -113,9 +186,9 @@ export default function Portfolio() {
                 transition={{ delay: index * 0.1 }}
               >
                 <img
-                  src={`https://via.placeholder.com/300x150?text=${encodeURIComponent(project.title)}`}
+                  src={project.image}
                   alt={project.title}
-                  className="rounded mb-4"
+                  className="rounded mb-4 w-full h-40 object-cover"
                 />
                 <h3 className="text-2xl font-semibold mb-2">{project.title}</h3>
                 <p className="text-gray-600 text-sm mb-4 flex-grow">{project.description}</p>
