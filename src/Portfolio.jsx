@@ -9,7 +9,7 @@ export default function Portfolio() {
       title: "Medical Chatbot UI",
       description:
         "Medical chatbot using LLaMA 2 and Gradio. Uses T4 GPU and aboonaji dataset for structured interaction.",
-      link: "https://a161f999dcb3274e2b.gradio.live",
+      link: " https://7cd460b36c1f4d686a.gradio.live",
       image:
         "https://plus.unsplash.com/premium_photo-1732628348854-56a54f1da2ad?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
@@ -17,7 +17,7 @@ export default function Portfolio() {
       title: "Portfolio Website",
       description:
         "Built with React and Tailwind. Demonstrates UI/UX capabilities with clean transitions and layouts.",
-      link: "https://github.com/BirukZenebe1/41697_41569_39770_41832_41395_40703_persona_ai_project",
+      link: "https://myportofolio-navy-eight.vercel.app",
       image:
         "https://images.unsplash.com/photo-1620046311691-5d93d65f69e9?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
