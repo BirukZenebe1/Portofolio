@@ -243,8 +243,7 @@ export default function Portfolio() {
             ))}
           </div>
           <p className="text-center mt-6 text-sm text-gray-500">
-            PS: Some of the projects require real-time runtime like the Medical Chatbot and Persona AI. They’re hosted
-            on Google Colab using T4 GPU. Contact me for the live links to test them!
+            PS: The Medical Chatbot is hosted on Google Colab using T4 GPU for better and fast performance,and since the deployment for such models require resorces I haven't deployed it yet. So please contact me usinf the email below for the live link to test it!
           </p>
         </section>
 
