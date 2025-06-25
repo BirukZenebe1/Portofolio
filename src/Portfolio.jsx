@@ -25,7 +25,7 @@ export default function Portfolio() {
       title: "TED Talk Lite",
       description:
         "TED talk clone focusing on UI/UX design using Figma and developed with Webflow.",
-      link: "https://www.figma.com/proto/hmzQ5ylAkx1PaVuTGLd6Ix/My-Project?node-id=15-2&t=G6ZsrmB1OhUGu3Qz-1&starting-point-node-id=15%3A2",
+      link: "https://my-project-a9dc18.webflow.io",
       image:
         "https://images.unsplash.com/photo-1646189480378-cd0ba691cb4e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
@@ -41,7 +41,7 @@ export default function Portfolio() {
       title: "Landing Page for Circle",
       description:
         "UI/UX landing page built in Figma and Webflow, showcasing responsive design principles.",
-      link: "https://www.figma.com/proto/ElA6I2EWYbuJlWqOLevt8F/Webflow-Project?node-id=2-32&t=b8TZomT6V45DAtft-1",
+      link: "https://circle-company-485b32.webflow.io",
       image:
         "https://images.unsplash.com/photo-1632516643720-e7f5d7d6ecc9?q=80&w=1011&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
