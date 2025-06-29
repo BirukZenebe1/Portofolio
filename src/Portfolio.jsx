@@ -49,12 +49,12 @@ export default function Portfolio() {
 
   const skills = [
     "React.js/ Typescript.JS",
-    "Tailwind CSS",
+    "Power BI",
     "Figma",
     "HTML/CSS/JavaScript",
     "UI Design",
     "Wireframing",
-    "Prototyping",
+    "MS Excel",
     "SQL/ Postgres",
     "Python",
     "Webflow",
@@ -64,13 +64,13 @@ export default function Portfolio() {
 
   const skillIcons = {
     "React.js/ Typescript.JS": "⚛️🧩",
-    "Tailwind CSS": "🌬️",
+    "Power BI": "🌬️",
     Figma: "🎨",
     "HTML/CSS/JavaScript": "💻",
     "UI Design": "🧩",
     Wireframing: "🗺️",
-    Prototyping: "🛠️",
-    "SQL/ Postgres": "🗃️📊",
+    "MS Excel": "📊",
+    "SQL/ Postgres": "🗃️",
     "Python": "🐍",
     "Webflow": "🌐",
     "Adobe": "🖌️",
@@ -115,7 +115,7 @@ export default function Portfolio() {
                           animate={{ opacity: 1 }}
                           transition={{ delay: 0.3 }}
                       >
-                          Frontend Developer & UI/UX Designer.
+                          Data Analyst | AI Enthusiast
                       </motion.p>
                       <h2 className="text-4xl font-semibold text-center mb-12">👨‍💻 About me</h2>
                       <motion.p
@@ -124,7 +124,7 @@ export default function Portfolio() {
                           animate={{ opacity: 1 }}
                           transition={{ delay: 0.3 }}
                       >
-                          I'm a confident and creative developer with a passion for designing seamless user experiences and building smart, interactive interfaces. I dream big, learn fast, and thrive on solving real-world problems through technology. With a strong foundation in frontend development and growing expertise in AI, I’m driven to create meaningful digital products and always leveling up. 🚀
+                          I'm a confident and Motivated Data analyst with a passion for Mathematics, Statistics and programming. I dream big, learn fast, and thrive on solving real-world problems through technology With a strong foundation in SQL,Python,Excel and growing expertise in AI. 🚀
                       </motion.p>
               </section>
 
