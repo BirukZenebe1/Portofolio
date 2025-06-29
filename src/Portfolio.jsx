@@ -115,7 +115,7 @@ export default function Portfolio() {
                           animate={{ opacity: 1 }}
                           transition={{ delay: 0.3 }}
                       >
-                          Data Analyst | AI Enthusiast
+                          Data Analyst | Frontend web developer | AI Enthusiast
                       </motion.p>
                       <h2 className="text-4xl font-semibold text-center mb-12">👨‍💻 About me</h2>
                       <motion.p
