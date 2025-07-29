@@ -50,7 +50,7 @@ export default function Portfolio() {
   const skills = [
     "React.js/ Typescript.JS",
     "Power BI",
-    "Figma",
+    "Fine-tuning Models",
     "HTML/CSS/JavaScript",
     "UI Design",
     "Wireframing",
@@ -58,14 +58,14 @@ export default function Portfolio() {
     "SQL/ Postgres",
     "Python",
     "Webflow",
-    "Adobe",
-    "Usability Testing",
+    "Deep Learning",
+    "Pytorch, Tensorflow",
   ];
 
   const skillIcons = {
     "React.js/ Typescript.JS": "⚛️🧩",
     "Power BI": "🌬️",
-    Figma: "🎨",
+    "Fine-tuning Models": "🎨",
     "HTML/CSS/JavaScript": "💻",
     "UI Design": "🧩",
     Wireframing: "🗺️",
@@ -73,8 +73,8 @@ export default function Portfolio() {
     "SQL/ Postgres": "🗃️",
     "Python": "🐍",
     "Webflow": "🌐",
-    "Adobe": "🖌️",
-    "Usability Testing": "🧪",
+    "Deep Learning": "🖌️",
+    "Pytorch, Tensorflow": "🧪",
   };
 
   return (
@@ -115,7 +115,7 @@ export default function Portfolio() {
                           animate={{ opacity: 1 }}
                           transition={{ delay: 0.3 }}
                       >
-                          UI/UX designer | Frontend web developer
+                        Junior Data Scientist | AI Enthusiast
                       </motion.p>
                       <h2 className="text-4xl font-semibold text-center mb-12">👨‍💻 About me</h2>
                       <motion.p
@@ -144,7 +144,7 @@ export default function Portfolio() {
                     <p className="text-sm text-gray-500">Mekelle Institute of technology, Mekelle, Ethiopia (2019-2021)</p>
                     <p className="text-gray-700 mt-2">
                       Web development, UI/UX Interfaces, Human-Computer Interaction, Cloud oriented web services. How
-                      ever couldn't complete due to war in Ethiopia.😔
+                      ever couldn't complete due to war in Ethiopia.
                     </p>
                   </motion.div>
                   <motion.div
@@ -158,7 +158,7 @@ export default function Portfolio() {
                     <p className="text-sm text-gray-500">University of Vizja, Warsaw,Poland (Expected Sept 2025)</p>
                     <p className="text-gray-700 mt-2">
                       Focused on AI, Machine Learning, UI/UX and Human-Computer Interaction. Thesis on fine-tuning LLaMA 2
-                      for medical chatbot applications. and graduating on September.🥳
+                      for medical chatbot applications. and graduating on September.
                     </p>
                   </motion.div>
                 </div>
@@ -179,7 +179,7 @@ export default function Portfolio() {
                     <p className="text-sm text-gray-500"> Sheba academy - September 2021 — June2021 </p>
                     <p className="text-gray-700 mt-2">
                       Built responsive web apps using React, and Webflow, delivered clean UI/UX and performance,Wrote custom
-                      HTML and JavaScript for existing websites. 😌🏆
+                      HTML and JavaScript for existing websites. 
                     </p>
                   </motion.div>
                   <motion.div
@@ -193,7 +193,7 @@ export default function Portfolio() {
                     <p className="text-sm text-gray-500">Ruha LLC - April 2024 — December 2024</p>
                     <p className="text-gray-700 mt-2">
                       Completed my Internship at Ruha LLC, Conducted thorough data validation, performed regular audits on
-                      existing databases and enhanced data visualization capabilities.🤩✨
+                      existing databases and enhanced data visualization capabilities.
                     </p>
                   </motion.div>
                   <motion.div
@@ -207,7 +207,7 @@ export default function Portfolio() {
                     <p className="text-sm text-gray-500">Self-Initiated — 2024</p>
                     <p className="text-gray-700 mt-2">
                       Developed medical chatbot and recommender systems using Python, Gradio, and LLaMA 2. Deployed demos with
-                      Google Colab and shared via GitHub. 💪💥
+                      Google Colab and shared via GitHub. 
                     </p>
                   </motion.div>
                 </div>
