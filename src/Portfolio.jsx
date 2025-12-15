@@ -27,7 +27,7 @@ export default function Portfolio() {
         "End-to-End implementation of Proximal Policy Optimization (PPO) with a CNN-based Actor–Critic network to solve the CarRacing-v3 environment using continuous actions.",
       link: "https://github.com/BirukZenebe1/PPO",
       image:
-        "hhttps://theaisummer.com/static/425fe4453b2e763153350c7bf17e921d/f422e/ppo_trpo.jpg",
+        "https://theaisummer.com/static/425fe4453b2e763153350c7bf17e921d/f422e/ppo_trpo.jpg",
     },
     {
       title: "Persona AI Recommender",
