@@ -14,20 +14,20 @@ export default function Portfolio() {
         "https://plus.unsplash.com/premium_photo-1732628348854-56a54f1da2ad?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
-      title: "Portfolio Website",
+      title: "A3C for Kungufu",
       description:
-        "Built with React and Tailwind. Demonstrates UI/UX capabilities with clean transitions and layouts.",
-      link: "https://myportofolio-navy-eight.vercel.app",
+        "This project implements an Asynchronous Advantage Actor-Critic (A3C) reinforcement learning agent trained to play the Kung Fu Master Atari environment. The agent learns optimal policies through parallel training and environment interaction..",
+      link: "https://github.com/BirukZenebe1/A3C",
       image:
         "https://images.unsplash.com/photo-1620046311691-5d93d65f69e9?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
-      title: "TED Talk Lite",
+      title: "PPO",
       description:
-        "TED talk clone focusing on UI/UX design using Figma and developed with Webflow.",
-      link: "https://my-project-a9dc18.webflow.io",
+        "End-to-End implementation of Proximal Policy Optimization (PPO) with a CNN-based Actor–Critic network to solve the CarRacing-v3 environment using continuous actions.",
+      link: "https://github.com/BirukZenebe1/PPO",
       image:
-        "https://images.unsplash.com/photo-1646189480378-cd0ba691cb4e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "hhttps://theaisummer.com/static/425fe4453b2e763153350c7bf17e921d/f422e/ppo_trpo.jpg",
     },
     {
       title: "Persona AI Recommender",
@@ -38,12 +38,12 @@ export default function Portfolio() {
         "https://images.unsplash.com/photo-1589254065909-b7086229d08c?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
-      title: "Landing Page for Circle",
+      title: "Q-learning-PAC-MAN",
       description:
-        "UI/UX landing page built in Figma and Webflow, showcasing responsive design principles.",
-      link: "https://circle-company-485b32.webflow.io",
+        "This project demonstrates the use of Deep Convolutional Q-Learning (DQN) to train an agent capable of playing the Pac-Man environment. A convolutional neural network is used to process visual inputs and estimate action-value functions.",
+      link: "https://github.com/BirukZenebe1/Q-learning-PAC-MAN",
       image:
-        "https://images.unsplash.com/photo-1632516643720-e7f5d7d6ecc9?q=80&w=1011&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://static.bandainamcoent.eu/high/pac-man/brand-setup/pac_thumb_brand_624x468_4b.jpg",
     },
   ];
 
@@ -115,7 +115,7 @@ export default function Portfolio() {
                           animate={{ opacity: 1 }}
                           transition={{ delay: 0.3 }}
                       >
-                        Junior Data Scientist | AI Enthusiast
+                        Machine learning Apparentice| Data Scientist | Gen AI Enthusiast
                       </motion.p>
                       <h2 className="text-4xl font-semibold text-center mb-12">👨‍💻 About me</h2>
                       <motion.p
@@ -124,7 +124,7 @@ export default function Portfolio() {
                           animate={{ opacity: 1 }}
                           transition={{ delay: 0.3 }}
                       >
-                          I'm a confident and Motivated Data analyst with a passion for Mathematics, Statistics and programming. I dream big, learn fast, and thrive on solving real-world problems through technology With a strong foundation in SQL,Python,Excel and growing expertise in AI. 🚀
+                          I'm a data science enthusiast with a strong interest in Artificial Intelligence, Machine Learning, and Deep Reinforcement Learning. I enjoy building intelligent systems, experimenting with modern AI algorithms, and applying theory to practical projects. 🚀
                       </motion.p>
               </section>
 
