@@ -115,7 +115,7 @@ export default function Portfolio() {
                           animate={{ opacity: 1 }}
                           transition={{ delay: 0.3 }}
                       >
-                        Machine learning Apparentice| Data Scientist | Gen AI Enthusiast
+                        Machine learning Apparentice| Gen AI Engineer
                       </motion.p>
                       <h2 className="text-4xl font-semibold text-center mb-12">👨‍💻 About me</h2>
                       <motion.p
@@ -124,7 +124,7 @@ export default function Portfolio() {
                           animate={{ opacity: 1 }}
                           transition={{ delay: 0.3 }}
                       >
-                          I'm a data science enthusiast with a strong interest in Artificial Intelligence, Machine Learning, and Deep Reinforcement Learning. I enjoy building intelligent systems, experimenting with modern AI algorithms, and applying theory to practical projects. 🚀
+                          I'm a data science enthusiast and life long learner with a strong interest in Artificial Intelligence, Machine Learning, and Deep Reinforcement Learning. I enjoy building intelligent systems, experimenting with modern AI algorithms, and applying theory to practical projects. 🚀
                       </motion.p>
               </section>
 
