@@ -48,31 +48,22 @@ export default function Portfolio() {
   ];
 
   const skills = [
-    "React.js/ Typescript.JS",
+    "Python",
     "Power BI",
     "Fine-tuning Models",
-    "HTML/CSS/JavaScript",
-    "UI Design",
-    "Wireframing",
     "MS Excel",
     "SQL/ Postgres",
     "Python",
-    "Webflow",
     "Deep Learning",
     "Pytorch, Tensorflow",
   ];
 
   const skillIcons = {
-    "React.js/ Typescript.JS": "⚛️🧩",
+    "Python": "🐍",
     "Power BI": "🌬️",
     "Fine-tuning Models": "🎨",
-    "HTML/CSS/JavaScript": "💻",
-    "UI Design": "🧩",
-    Wireframing: "🗺️",
     "MS Excel": "📊",
     "SQL/ Postgres": "🗃️",
-    "Python": "🐍",
-    "Webflow": "🌐",
     "Deep Learning": "🖌️",
     "Pytorch, Tensorflow": "🧪",
   };
