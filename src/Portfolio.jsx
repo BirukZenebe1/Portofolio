@@ -195,7 +195,7 @@ export default function Portfolio() {
                     transition={{ duration: 0.8 }}
                   >
                     <h3 className="text-gray-600 font-semibold">AI Project Contributor (Warsaw,Poland)</h3>
-                    <p className="text-sm text-gray-500">Self-Initiated — 2024</p>
+                    <p className="text-sm text-gray-500">Self-Initiated - since 2024 </p>
                     <p className="text-gray-700 mt-2">
                       Developed medical chatbot and recommender systems using Python, Gradio, and LLaMA 2. Deployed demos with
                       Google Colab and shared via GitHub. 
