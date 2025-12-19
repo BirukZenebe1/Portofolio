@@ -53,7 +53,6 @@ export default function Portfolio() {
     "Fine-tuning Models",
     "MS Excel",
     "SQL/ Postgres",
-    "Python",
     "Deep Learning",
     "Pytorch, Tensorflow",
   ];
