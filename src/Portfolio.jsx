@@ -165,11 +165,10 @@ export default function Portfolio() {
                     viewport={{ once: true }}
                     transition={{ duration: 0.6 }}
                   >
-                    <h3 className="text-gray-600 font-semibold">Frontend web Developer (Addis Abeba ,Ethiopia)</h3>
-                    <p className="text-sm text-gray-500"> Sheba academy - September 2021 — June2021 </p>
+                    <h3 className="text-gray-600 font-semibold">English instructor (Warsaw ,Poland)</h3>
+                    <p className="text-sm text-gray-500"> GB English - September 2022 — January 2024 </p>
                     <p className="text-gray-700 mt-2">
-                      Built responsive web apps using React, and Webflow, delivered clean UI/UX and performance,Wrote custom
-                      HTML and JavaScript for existing websites. 
+                      English instructor with experience helping learners improve fluency, pronunciation, and communication clarity.
                     </p>
                   </motion.div>
                   <motion.div
