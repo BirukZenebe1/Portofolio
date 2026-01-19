@@ -6,6 +6,14 @@ import ThemeToggle from "./components/ui/ThemeToggle";
 export default function Portfolio() {
   const projects = [
     {
+      title: "Automated Machine Learning Pipeline",
+      description:
+        "Built an automated Randomforest ensemble pipeline using AWS lambda, S3 model training and deployment.",
+      link: " https://github.com/BirukZenebe1/Automated-Random-Forest-Pipeline-Lambda-function-",
+      image: 
+           "https://plus.unsplash.com/premium_photo-1682124651258-410b25fa9dc0?q=80&w=2821&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
       title: "Medical Chatbot UI",
       description:
         "Medical chatbot using LLaMA 2 and Gradio. Uses T4 GPU and aboonaji dataset for structured interaction.",
@@ -49,6 +57,8 @@ export default function Portfolio() {
 
   const skills = [
     "Python",
+    "AWS Sage Maker",
+    "AWS Lambda", 
     "Power BI",
     "Fine-tuning Models",
     "MS Excel",
@@ -59,6 +69,8 @@ export default function Portfolio() {
 
   const skillIcons = {
     "Python": "🐍",
+    "AWS Sage Maker": "🤖",
+    "AWS Lambda": "🔶",
     "Power BI": "🌬️",
     "Fine-tuning Models": "🎨",
     "MS Excel": "📊",
@@ -195,8 +207,7 @@ export default function Portfolio() {
                     <h3 className="text-gray-600 font-semibold">AI Project Contributor (Warsaw,Poland)</h3>
                     <p className="text-sm text-gray-500">Self-Initiated - since 2024 </p>
                     <p className="text-gray-700 mt-2">
-                      Developed medical chatbot and recommender systems using Python, Gradio, and LLaMA 2. Deployed demos with
-                      Google Colab and shared via GitHub. 
+                      Developed a medical chatbot and recommendation system using Python, Gradio, and LLaMA 2. Deployed interactive demos on Google Colab and published code repositories on GitHub. Automated machine learning pipelines using AWS Lambda. 
                     </p>
                   </motion.div>
                 </div>
