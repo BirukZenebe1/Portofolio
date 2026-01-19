@@ -290,6 +290,7 @@ export default function Portfolio() {
                       href="https://www.linkedin.com/in/biruk-zenebe-916529246/"
                       className="text-blue-600 hover:underline"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       View Profile
                     </a>
@@ -304,6 +305,7 @@ export default function Portfolio() {
                     <a
                       href="https://github.com/BirukZenebe1"
                       target="_blank"
+                      rel="noopener noreferrer"
                       className="inline-flex items-center gap-2 px-6 py-2 border border-gray-300 rounded-full hover:bg-gray-100 transition text-lg"
                     >
                       <Github className="h-5 w-5" /> GitHub
