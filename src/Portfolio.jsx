@@ -246,9 +246,7 @@ export default function Portfolio() {
                     </Tilt>
                   ))}
                 </div>
-                <p className="text-center mt-6 text-sm text-gray-500">
-                  PS: The Medical Chatbot is hosted on Google Colab using T4 GPU for better and fast performance,and since the deployment for such models require resorces I haven't deployed it yet. So please contact me using the email below for the live link to test it!
-                </p>
+                
               </section>
 
               {/* Skills Section */}
