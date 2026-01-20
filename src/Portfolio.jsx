@@ -126,7 +126,7 @@ export default function Portfolio() {
                           animate={{ opacity: 1 }}
                           transition={{ delay: 0.3 }}
                       >
-                          I'm a data science enthusiast and life long learner with a strong interest in Artificial Intelligence, Machine Learning, and Deep Reinforcement Learning. I enjoy building intelligent systems, experimenting with modern AI algorithms, and applying theory to practical projects. 🚀
+                         Data science enthusiast and lifelong learner with expertise in Artificial Intelligence, Machine Learning, and Deep Reinforcement Learning. I design and deploy production ML systems using cloud infrastructure (AWS Lambda, S3), experiment with state-of-the-art algorithms, and translate complex AI concepts into tangible, working solutions. 🚀
                       </motion.p>
               </section>
 
