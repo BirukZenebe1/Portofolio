@@ -38,14 +38,6 @@ export default function Portfolio() {
         "https://theaisummer.com/static/425fe4453b2e763153350c7bf17e921d/f422e/ppo_trpo.jpg",
     },
     {
-      title: "Persona AI Recommender",
-      description:
-        "E-commerce recommender built with JavaScript, HTML/CSS, and Python to suggest items based on user history.",
-      link: "https://personabkmlys.netlify.app",
-      image:
-        "https://images.unsplash.com/photo-1589254065909-b7086229d08c?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    },
-    {
       title: "Q-learning-PAC-MAN",
       description:
         "This project demonstrates the use of Deep Convolutional Q-Learning (DQN) to train an agent capable of playing the Pac-Man environment. A convolutional neural network is used to process visual inputs and estimate action-value functions.",
