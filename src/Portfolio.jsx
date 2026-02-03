@@ -96,7 +96,7 @@ export default function Portfolio() {
 
                       <div className="w-46 h-46 md:w-48 md:h-48 overflow-hidden rounded-full border-4 border-white shadow-lg mx-auto">
                       <img
-                          src="https://i.postimg.cc/ZRdLQsPf/IMG-9492.avif"
+                          src="https://i.postimg.cc/7YPJYTF7/IMG-4011-2.avif
                           alt="Pavifrofile"
                           className="object-cover w-full h-full"
                       />
