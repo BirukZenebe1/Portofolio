@@ -152,8 +152,8 @@ export default function Portfolio() {
                     <h3 className="text-gray-600  font-semibold">B.Sc. in Computer Science</h3>
                     <p className="text-sm text-gray-500">University of Vizja, Warsaw,Poland (Expected Sept 2025)</p>
                     <p className="text-gray-700 mt-2">
-                      AI, Machine Learning,Deep learning, REST API, Thesis on fine-tuning LLaMA 2
-                      for medical chatbot applications. and graduating on September.
+                      AI, Machine Learning,Deep learning, REST API, Thesis fine-tuning LLaMA 2
+                      for medical chatbot
                     </p>
                   </motion.div>
                 </div>
