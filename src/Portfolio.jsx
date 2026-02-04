@@ -8,7 +8,7 @@ export default function Portfolio() {
     {
       title: "Automated Machine Learning Pipeline",
       description:
-        "Built an automated Randomforest ensemble pipeline using AWS lambda, S3 model training and deployment.",
+        "Built an automated Randomforest ensemble pipeline to predict wine quality using AWS lambda, S3 model training and deployment.",
       link: " https://github.com/BirukZenebe1/Automated-Random-Forest-Pipeline-Lambda-function-",
       image: 
            "https://plus.unsplash.com/premium_photo-1682124651258-410b25fa9dc0?q=80&w=2821&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -48,11 +48,12 @@ export default function Portfolio() {
   ];
 
   const skills = [
-    "Python",
-    "AWS Sage Maker",
-    "AWS Lambda", 
-    "Power BI",
-    "Fine-tuning Models",
+    "Python | Sklearn",
+    "XGBoost|LightGBM|CATBoost",
+    "AWS Sage Maker | AWS Lambda",
+    "MLops", 
+    "LLMs",
+    "Fine-tuning",
     "MS Excel",
     "SQL/ Postgres",
     "Deep Learning",
@@ -60,14 +61,15 @@ export default function Portfolio() {
   ];
 
   const skillIcons = {
-    "Python": "🐍",
-    "AWS Sage Maker": "🤖",
-    "AWS Lambda": "🔶",
-    "Power BI": "🌬️",
-    "Fine-tuning Models": "🎨",
+    "Python | Sklearn": "🐍",
+    "XGBoost|LightGBM|CATBoost": "💡",
+    "AWS Sage Maker | AWS Lambda": "🔶",
+    "MLops": "🤖",
+    "Deep Learning": "🖌️",
+    "LLMs": "🌬️",
+    "Fine-tuning": "🎨",
     "MS Excel": "📊",
     "SQL/ Postgres": "🗃️",
-    "Deep Learning": "🖌️",
     "Pytorch, Tensorflow": "🧪",
   };
 
@@ -118,7 +120,7 @@ export default function Portfolio() {
                           animate={{ opacity: 1 }}
                           transition={{ delay: 0.3 }}
                       >
-                         Data science enthusiast and lifelong learner with expertise in Artificial Intelligence, Machine Learning, and Deep Reinforcement Learning. I design and deploy production ML systems using cloud infrastructure (AWS Lambda, S3), experiment with state-of-the-art algorithms, and translate complex AI concepts into tangible, working solutions. 🚀
+                         Data science enthusiast and lifelong learner with expertise in Artificial Intelligence, Machine Learning, and Deep Reinforcement Learning. I design and deploy production ML systems using cloud infrastructure, experiment with state-of-the-art algorithms, and translate complex AI concepts into tangible, working solutions. 🚀
                       </motion.p>
               </section>
 
@@ -137,8 +139,7 @@ export default function Portfolio() {
                     <h3 className="text-gray-600 font-semibold">B.Sc. in Information Technology</h3>
                     <p className="text-sm text-gray-500">Mekelle Institute of technology, Mekelle, Ethiopia (2019-2021)</p>
                     <p className="text-gray-700 mt-2">
-                      Web development, UI/UX Interfaces, Human-Computer Interaction, Cloud oriented web services. How
-                      ever couldn't complete due to war in Ethiopia.
+                      Web development,  Network technologies, Human-Computer Interaction, Cloud oriented web services. 
                     </p>
                   </motion.div>
                   <motion.div
@@ -151,7 +152,7 @@ export default function Portfolio() {
                     <h3 className="text-gray-600  font-semibold">B.Sc. in Computer Science</h3>
                     <p className="text-sm text-gray-500">University of Vizja, Warsaw,Poland (Expected Sept 2025)</p>
                     <p className="text-gray-700 mt-2">
-                      Focused on AI, Machine Learning, UI/UX and Human-Computer Interaction. Thesis on fine-tuning LLaMA 2
+                      AI, Machine Learning,Deep learning, REST API, Thesis on fine-tuning LLaMA 2
                       for medical chatbot applications. and graduating on September.
                     </p>
                   </motion.div>
