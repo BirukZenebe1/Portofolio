@@ -4,6 +4,7 @@ import { Send, Github } from "lucide-react";
 import React from "react";
 import ThemeToggle from "./components/ui/ThemeToggle";
 export default function Portfolio() {
+  
   const projects = [
     {
       title: "Automated Machine Learning Pipeline",
@@ -20,7 +21,11 @@ export default function Portfolio() {
       link: " https://huggingface.co/spaces/brkznb/Medicalchatbot",
       image:
         "https://plus.unsplash.com/premium_photo-1732628348854-56a54f1da2ad?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    },
+    }
+    
+    
+  ];
+  const experiments = [
     {
       title: "A3C for Kungufu",
       description:
@@ -30,14 +35,6 @@ export default function Portfolio() {
         "https://images.unsplash.com/photo-1620046311691-5d93d65f69e9?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
-      title: "PPO",
-      description:
-        "End-to-End implementation of Proximal Policy Optimization (PPO) with a CNN-based Actor–Critic network to solve the CarRacing-v3 environment using continuous actions.",
-      link: "https://github.com/BirukZenebe1/PPO",
-      image:
-        "https://theaisummer.com/static/425fe4453b2e763153350c7bf17e921d/f422e/ppo_trpo.jpg",
-    },
-    {
       title: "Q-learning-PAC-MAN",
       description:
         "This project demonstrates the use of Deep Convolutional Q-Learning (DQN) to train an agent capable of playing the Pac-Man environment. A convolutional neural network is used to process visual inputs and estimate action-value functions.",
@@ -45,15 +42,25 @@ export default function Portfolio() {
       image:
         "https://static.bandainamcoent.eu/high/pac-man/brand-setup/pac_thumb_brand_624x468_4b.jpg",
     },
+    {
+      title: "PPO",
+      description:
+        "End-to-End implementation of Proximal Policy Optimization (PPO) with a CNN-based Actor–Critic network to solve the CarRacing-v3 environment using continuous actions.",
+      link: "https://github.com/BirukZenebe1/PPO",
+      image:
+        "https://theaisummer.com/static/425fe4453b2e763153350c7bf17e921d/f422e/ppo_trpo.jpg",
+    }
   ];
+    
 
   const skills = [
     "Python | Sklearn",
-    "XGBoost|LightGBM|CATBoost",
+    "Boosting ML algorithms",
     "AWS Sage Maker | AWS Lambda",
     "MLops", 
     "LLMs",
     "Fine-tuning",
+    "Weights and biases",
     "MS Excel",
     "SQL/ Postgres",
     "Deep Learning",
@@ -62,12 +69,13 @@ export default function Portfolio() {
 
   const skillIcons = {
     "Python | Sklearn": "🐍",
-    "XGBoost|LightGBM|CATBoost": "💡",
+    "Boosting ML algorithms": "💡",
     "AWS Sage Maker | AWS Lambda": "🔶",
     "MLops": "🤖",
     "Deep Learning": "🖌️",
     "LLMs": "🌬️",
     "Fine-tuning": "🎨",
+    "Weights and biases":"📈",
     "MS Excel": "📊",
     "SQL/ Postgres": "🗃️",
     "Pytorch, Tensorflow": "🧪",
@@ -111,7 +119,7 @@ export default function Portfolio() {
                           animate={{ opacity: 1 }}
                           transition={{ delay: 0.3 }}
                       >
-                        Machine learning Apparentice | Gen AI Engineer
+                        Machine learning Engineer | Gen AI Engineer
                       </motion.p>
                       <h2 className="text-4xl font-semibold text-center mb-12">👨‍💻 About me</h2>
                       <motion.p
@@ -127,7 +135,7 @@ export default function Portfolio() {
 
               {/* Education Section */}
               <section>
-                <h2 className="text-4xl font-semibold text-center mb-12">🎓 Education</h2>
+                <h2 className="text-4xl font-semibold text-center mb-12">Education</h2>
                 <div className="space-y-6 max-w-3xl mx-auto">
                   <motion.div
                     className="bg-white rounded-lg shadow-md p-6 border-l-4 border-purple-500"
@@ -161,7 +169,7 @@ export default function Portfolio() {
 
               {/* Experience Section */}
               <section>
-                <h2 className="text-4xl font-semibold text-center mb-12">💼 Experience</h2>
+                <h2 className="text-4xl font-semibold text-center mb-12">Experience</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl mx-auto">
                   <motion.div
                     className="bg-white rounded-lg shadow-md p-6 border-l-4 border-blue-500"
@@ -208,7 +216,7 @@ export default function Portfolio() {
 
               {/* Projects Section */}
               <section>
-                <h2 className="text-4xl font-semibold text-center mb-12">🌟 Featured Projects</h2>
+                <h2 className="text-4xl font-semibold text-center mb-12"> Projects</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
                   {projects.map((project, index) => (
                     <Tilt key={index} glareEnable scale={1.02} glareMaxOpacity={0.15}>
@@ -242,9 +250,45 @@ export default function Portfolio() {
                 
               </section>
 
+              {/* Experiments Section */}
+              <section>
+                <h2 className="text-4xl font-semibold text-center mb-12">Experiments</h2>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+                  {experiments.map((experiment, index) => (
+                    <Tilt key={index} glareEnable scale={1.02} glareMaxOpacity={0.15}>
+                      <motion.div
+                        className="rounded-xl border border-gray-200 p-5 bg-white shadow-md hover:shadow-lg transition flex flex-col h-full"
+                        whileHover={{ y: -4 }}
+                        initial={{ opacity: 0, y: 30 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true }}
+                        transition={{ delay: index * 0.1 }}
+                      >
+                        <img
+                          src={experiment.image}
+                          alt={experiment.title}
+                          className="rounded mb-4 w-full h-40 object-cover"
+                        />
+                        <h3 className="text-gray-600 font-semibold mb-2">{experiment.title}</h3>
+                        <p className="text-gray-600 text-sm mb-4 flex-grow">{experiment.description}</p>
+                        <a
+                          href={experiment.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-block px-4 py-2 border border-blue-600 text-blue-600 rounded hover:bg-blue-50 transition"
+                        >
+                          View Project
+                        </a>
+                      </motion.div>
+                    </Tilt>
+                  ))}
+                </div>
+                
+              </section>
+
               {/* Skills Section */}
               <section>
-                <h2 className="text-4xl font-semibold text-center mb-12">🛠 My Skills</h2>
+                <h2 className="text-4xl font-semibold text-center mb-12"> My Skills</h2>
                 <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                   {skills.map((skill, index) => (
                     <motion.div
