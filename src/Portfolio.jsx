@@ -119,7 +119,7 @@ export default function Portfolio() {
                           animate={{ opacity: 1 }}
                           transition={{ delay: 0.3 }}
                       >
-                        Machine learning Engineer | Gen AI Engineer
+                        Machine learning | Gen AI Engineer
                       </motion.p>
                       <h2 className="text-4xl font-semibold text-center mb-12">👨‍💻 About me</h2>
                       <motion.p
