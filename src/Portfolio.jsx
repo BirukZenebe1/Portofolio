@@ -17,7 +17,7 @@ export default function Portfolio() {
     {
       title: "Automated Machine Learning Pipeline",
       description:
-        "Built an automated Randomforest ensemble pipeline to predict wine quality using AWS lambda and S3 model training.",
+        "Built an automated Randomforest ensemble pipeline to predict wine quality using AWS lambda,S3 model training to report pipeline details through email.",
       link: " https://github.com/BirukZenebe1/Automated-Random-Forest-Pipeline-Lambda-function-",
       image: 
            "https://plus.unsplash.com/premium_photo-1682124651258-410b25fa9dc0?q=80&w=2821&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
