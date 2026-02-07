@@ -60,6 +60,7 @@ export default function Portfolio() {
     "MLops", 
     "LLMs",
     "Fine-tuning",
+    "MLflow",
     "Weights and biases",
     "MS Excel",
     "SQL/ Postgres",
@@ -75,6 +76,7 @@ export default function Portfolio() {
     "Deep Learning": "🖌️",
     "LLMs": "🌬️",
     "Fine-tuning": "🎨",
+    "MLflow": "🔬"
     "Weights and biases":"📈",
     "MS Excel": "📊",
     "SQL/ Postgres": "🗃️",
