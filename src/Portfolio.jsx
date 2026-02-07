@@ -9,7 +9,7 @@ export default function Portfolio() {
     {
       title: "Medical Chatbot UI",
       description:
-        "Medical chatbot using LLaMA 2 and Gradio. Uses T4 GPU and aboonaji dataset for structured interaction.⚠️ Note: This demo requires GPU hardware (paid plan on hugging face or T4 GPU in google colab(free plan) )",
+        "Medical chatbot finetuned using LLaMA 2 and Gradio. Uses T4 GPU and aboonaji dataset for structured interaction.⚠️ Note: This demo requires GPU hardware (paid plan on hugging face or T4 GPU in google colab(free plan) )",
       link: " https://huggingface.co/spaces/brkznb/Medicalchatbot",
       image:
         "https://plus.unsplash.com/premium_photo-1732628348854-56a54f1da2ad?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
