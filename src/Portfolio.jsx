@@ -25,7 +25,7 @@ const projects = [
     title: "Merkato AI",
     description:
       "End-to-end personalized e-commerce recommendation experience with user profiling, filtering, and product flow.",
-    link: "https://github.com/BirukZenebe1/persona_ai_project",
+    link: "https://merkatoai.netlify.app",
     image:
       "https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1?q=80&w=1974&auto=format&fit=crop"
   }
