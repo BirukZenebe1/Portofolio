@@ -23,7 +23,7 @@ const ThemeToggle = () => {
       className="fixed top-6 right-6 z-50 bg-gray-100 dark:bg-gray-800 p-2 rounded-full shadow-md transition duration-300"
       aria-label="Toggle Theme"
     >
-      {darkMode ? <Sun className="text-yellow-400" /> : <Moon className="text-gray-800" />}
+      {darkMode ? <Sun className="text-gray-100" /> : <Moon className="text-gray-800" />}
     </button>
   );
 };

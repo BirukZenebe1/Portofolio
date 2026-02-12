@@ -83,14 +83,14 @@ export default function Portfolio() {
       <ThemeToggle />
 
       <div className="pointer-events-none fixed inset-0 -z-0">
-        <div className="absolute -top-28 left-0 h-72 w-72 rounded-full bg-cyan-300/30 blur-3xl" />
-        <div className="absolute bottom-0 right-0 h-80 w-80 rounded-full bg-amber-300/30 blur-3xl" />
+        <div className="absolute -top-28 left-0 h-72 w-72 rounded-full bg-slate-300/30 dark:bg-slate-700/30 blur-3xl" />
+        <div className="absolute bottom-0 right-0 h-80 w-80 rounded-full bg-gray-300/30 dark:bg-gray-700/30 blur-3xl" />
       </div>
 
       <main className="relative z-10 mx-auto max-w-6xl px-6 py-16 space-y-24">
         <section className="text-center space-y-8">
           <motion.h1
-            className="text-5xl md:text-6xl font-black tracking-tight bg-gradient-to-r from-cyan-600 to-amber-500 text-transparent bg-clip-text"
+            className="text-5xl md:text-6xl font-black tracking-tight text-slate-900 dark:text-slate-100"
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
@@ -140,7 +140,7 @@ export default function Portfolio() {
             ["2024", "Focused on GenAI + RL"]
           ].map(([value, label]) => (
             <div key={label} className="rounded-2xl border border-slate-200 dark:border-slate-800 bg-white/80 dark:bg-slate-900/70 p-6 text-center shadow-sm">
-              <p className="text-3xl font-black text-cyan-600 dark:text-cyan-400">{value}</p>
+              <p className="text-3xl font-black text-slate-900 dark:text-slate-100">{value}</p>
               <p className="mt-2 text-slate-600 dark:text-slate-300">{label}</p>
             </div>
           ))}
@@ -172,7 +172,7 @@ export default function Portfolio() {
                     href={project.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="mt-4 inline-flex items-center gap-2 text-cyan-700 dark:text-cyan-400 font-medium hover:underline"
+                    className="mt-4 inline-flex items-center gap-2 text-slate-800 dark:text-slate-200 font-medium hover:underline"
                   >
                     View Project <ExternalLink className="h-4 w-4" />
                   </a>
@@ -201,7 +201,7 @@ export default function Portfolio() {
                   href={experiment.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="mt-4 inline-flex items-center gap-2 text-cyan-700 dark:text-cyan-400 font-medium hover:underline"
+                  className="mt-4 inline-flex items-center gap-2 text-slate-800 dark:text-slate-200 font-medium hover:underline"
                 >
                   Explore Repo <ExternalLink className="h-4 w-4" />
                 </a>
@@ -234,7 +234,7 @@ export default function Portfolio() {
           <div className="flex justify-center gap-3 flex-wrap">
             <a
               href="mailto:birukzenebe111@gmail.com"
-              className="inline-flex items-center gap-2 rounded-full bg-cyan-600 px-6 py-3 text-white hover:bg-cyan-500 transition"
+              className="inline-flex items-center gap-2 rounded-full bg-slate-900 dark:bg-slate-100 px-6 py-3 text-white dark:text-slate-900 hover:bg-slate-700 dark:hover:bg-white transition"
             >
               <Send className="h-4 w-4" /> Email
             </a>
