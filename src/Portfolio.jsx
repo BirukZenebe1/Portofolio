@@ -1,7 +1,7 @@
 import React from "react";
-import { motion } from "framer-motion";
+import { motion, useScroll, useSpring } from "framer-motion";
 import Tilt from "react-parallax-tilt";
-import { Send, Github, ExternalLink, Linkedin } from "lucide-react";
+import { Send, Github, ExternalLink, Linkedin, Sparkles, Radar, Bot } from "lucide-react";
 import ThemeToggle from "./components/ui/ThemeToggle";
 
 const projects = [
@@ -73,13 +73,53 @@ const skills = [
   "Data Visualization"
 ];
 
+const workflow = [
+  {
+    step: "01",
+    title: "Problem Framing",
+    text: "Translate vague business goals into measurable ML tasks and success metrics."
+  },
+  {
+    step: "02",
+    title: "Rapid Prototyping",
+    text: "Ship minimal working baselines quickly, then iterate with data-driven tuning."
+  },
+  {
+    step: "03",
+    title: "Deployment & Monitoring",
+    text: "Automate model pipelines and monitor performance drift in production settings."
+  }
+];
+
+const nowBuilding = [
+  {
+    icon: Bot,
+    title: "RAG Evaluation Sandbox",
+    text: "Comparing retrieval strategies, chunking styles, and citation reliability."
+  },
+  {
+    icon: Radar,
+    title: "Model Drift Signals",
+    text: "Designing lightweight telemetry to catch quality degradation early."
+  },
+  {
+    icon: Sparkles,
+    title: "Portfolio AI Agent",
+    text: "An assistant that can explain projects and link to relevant source code instantly."
+  }
+];
+
 function SectionTitle({ children }) {
   return <h2 className="text-3xl md:text-4xl font-bold text-center mb-10 text-slate-900 dark:text-slate-100">{children}</h2>;
 }
 
 export default function Portfolio() {
+  const { scrollYProgress } = useScroll();
+  const progress = useSpring(scrollYProgress, { stiffness: 120, damping: 25, mass: 0.2 });
+
   return (
     <div className="min-h-screen bg-slate-50 text-slate-900 dark:bg-slate-950 dark:text-slate-100 transition-colors duration-500">
+      <motion.div style={{ scaleX: progress }} className="fixed left-0 right-0 top-0 z-50 h-1 origin-left bg-slate-900 dark:bg-slate-100" />
       <ThemeToggle />
 
       <div className="pointer-events-none fixed inset-0 -z-0">
@@ -89,6 +129,15 @@ export default function Portfolio() {
 
       <main className="relative z-10 mx-auto max-w-6xl px-6 py-16 space-y-24">
         <section className="text-center space-y-8">
+          <motion.div
+            className="inline-flex items-center gap-2 rounded-full border border-slate-300 dark:border-slate-700 bg-white/80 dark:bg-slate-900/70 px-4 py-1 text-sm"
+            initial={{ opacity: 0, y: -10 }}
+            animate={{ opacity: 1, y: 0 }}
+          >
+            <span className="h-2 w-2 rounded-full bg-slate-900 dark:bg-slate-100 pulse-dot" />
+            Open to AI / ML Engineering Roles
+          </motion.div>
+
           <motion.h1
             className="text-5xl md:text-6xl font-black tracking-tight text-slate-900 dark:text-slate-100"
             initial={{ opacity: 0, y: -20 }}
@@ -98,13 +147,18 @@ export default function Portfolio() {
             Biruk Zenebe
           </motion.h1>
 
-          <div className="mx-auto h-40 w-40 md:h-48 md:w-48 overflow-hidden rounded-full border-4 border-white dark:border-slate-800 shadow-lg">
+          <motion.div
+            className="mx-auto h-40 w-40 md:h-48 md:w-48 overflow-hidden rounded-full border-4 border-white dark:border-slate-800 shadow-lg floaty"
+            initial={{ opacity: 0, scale: 0.92 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ delay: 0.15 }}
+          >
             <img
               src="https://i.postimg.cc/7YPJYTF7/IMG-4011-2.avif"
               alt="Biruk Zenebe"
               className="h-full w-full object-cover"
             />
-          </div>
+          </motion.div>
 
           <motion.p
             className="mx-auto max-w-3xl text-lg md:text-xl text-slate-700 dark:text-slate-300"
@@ -133,23 +187,69 @@ export default function Portfolio() {
           </div>
         </section>
 
+        <section className="overflow-hidden rounded-2xl border border-slate-200 dark:border-slate-800 bg-white/70 dark:bg-slate-900/60 py-3">
+          <div className="marquee-track whitespace-nowrap text-sm md:text-base font-medium text-slate-600 dark:text-slate-300">
+            <span className="mx-8">ML Engineering</span>
+            <span className="mx-8">GenAI Product Development</span>
+            <span className="mx-8">Reinforcement Learning</span>
+            <span className="mx-8">MLOps Automation</span>
+            <span className="mx-8">Cloud Deployment</span>
+            <span className="mx-8">Prompt + Model Evaluation</span>
+            <span className="mx-8">ML Engineering</span>
+            <span className="mx-8">GenAI Product Development</span>
+            <span className="mx-8">Reinforcement Learning</span>
+          </div>
+        </section>
+
         <section className="grid grid-cols-1 md:grid-cols-3 gap-4">
           {[
             ["3+", "AI Projects Deployed"],
             ["2", "Degrees in Tech"],
             ["2024", "Focused on GenAI + RL"]
-          ].map(([value, label]) => (
-            <div key={label} className="rounded-2xl border border-slate-200 dark:border-slate-800 bg-white/80 dark:bg-slate-900/70 p-6 text-center shadow-sm">
+          ].map(([value, label], idx) => (
+            <motion.div
+              key={label}
+              className="rounded-2xl border border-slate-200 dark:border-slate-800 bg-white/80 dark:bg-slate-900/70 p-6 text-center shadow-sm"
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: idx * 0.08 }}
+            >
               <p className="text-3xl font-black text-slate-900 dark:text-slate-100">{value}</p>
               <p className="mt-2 text-slate-600 dark:text-slate-300">{label}</p>
-            </div>
+            </motion.div>
           ))}
         </section>
 
         <section>
           <SectionTitle>About Me</SectionTitle>
-          <div className="rounded-2xl border border-slate-200 dark:border-slate-800 bg-white/80 dark:bg-slate-900/70 p-8 leading-8 text-slate-700 dark:text-slate-300 shadow-sm">
+          <motion.div
+            className="rounded-2xl border border-slate-200 dark:border-slate-800 bg-white/80 dark:bg-slate-900/70 p-8 leading-8 text-slate-700 dark:text-slate-300 shadow-sm"
+            initial={{ opacity: 0, y: 16 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+          >
             Data science enthusiast and lifelong learner specializing in AI, machine learning, and deep reinforcement learning. I design and deploy ML systems on cloud infrastructure, experiment with modern architectures, and turn technical ideas into usable products.
+          </motion.div>
+        </section>
+
+        <section>
+          <SectionTitle>Workflow</SectionTitle>
+          <div className="grid gap-6 md:grid-cols-3">
+            {workflow.map((item, index) => (
+              <motion.div
+                key={item.title}
+                className="relative rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 p-6 shadow-sm"
+                initial={{ opacity: 0, y: 24 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: index * 0.1 }}
+              >
+                <span className="text-xs font-semibold tracking-[0.18em] text-slate-500">STEP {item.step}</span>
+                <h3 className="mt-3 text-xl font-semibold">{item.title}</h3>
+                <p className="mt-3 text-sm text-slate-600 dark:text-slate-300">{item.text}</p>
+              </motion.div>
+            ))}
           </div>
         </section>
 
@@ -207,6 +307,30 @@ export default function Portfolio() {
                 </a>
               </motion.article>
             ))}
+          </div>
+        </section>
+
+        <section>
+          <SectionTitle>Now Building</SectionTitle>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+            {nowBuilding.map((item, index) => {
+              const Icon = item.icon;
+              return (
+                <motion.div
+                  key={item.title}
+                  className="rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 p-6 shadow-sm"
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  whileHover={{ y: -5 }}
+                  transition={{ delay: index * 0.1 }}
+                >
+                  <Icon className="h-6 w-6" />
+                  <h3 className="mt-3 font-semibold text-lg">{item.title}</h3>
+                  <p className="mt-2 text-sm text-slate-600 dark:text-slate-300">{item.text}</p>
+                </motion.div>
+              );
+            })}
           </div>
         </section>
 
