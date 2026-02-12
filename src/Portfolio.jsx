@@ -22,12 +22,12 @@ const projects = [
       "https://plus.unsplash.com/premium_photo-1682124651258-410b25fa9dc0?q=80&w=2821&auto=format&fit=crop"
   },
   {
-    title: "Persona AI Recommendation App",
+    title: "Merkato AI",
     description:
       "End-to-end personalized e-commerce recommendation experience with user profiling, filtering, and product flow.",
     link: "https://github.com/BirukZenebe1/persona_ai_project",
     image:
-      "https://images.unsplash.com/photo-1556740749-887f6717d7e4?q=80&w=1974&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1?q=80&w=1974&auto=format&fit=crop"
   }
 ];
 
