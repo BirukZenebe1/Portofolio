@@ -38,7 +38,7 @@ const experiments = [
       "Asynchronous Advantage Actor-Critic training setup for Atari gameplay with parallel environment sampling.",
     link: "https://github.com/BirukZenebe1/A3C",
     image:
-      "https://images.unsplash.com/photo-1620046311691-5d93d65f69e9?q=80&w=2073&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1555597673-b21d5c935865?q=80&w=1974&auto=format&fit=crop"
   },
   {
     title: "DQN for Pac-Man",
@@ -46,7 +46,7 @@ const experiments = [
       "Deep Q-Learning agent with CNN state encoder for policy learning from visual observations.",
     link: "https://github.com/BirukZenebe1/Q-learning-PAC-MAN",
     image:
-      "https://static.bandainamcoent.eu/high/pac-man/brand-setup/pac_thumb_brand_624x468_4b.jpg"
+      "https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=2071&auto=format&fit=crop"
   },
   {
     title: "PPO for CarRacing-v3",
@@ -54,7 +54,7 @@ const experiments = [
       "Continuous-control PPO implementation using actor-critic networks and stable training loops.",
     link: "https://github.com/BirukZenebe1/PPO",
     image:
-      "https://theaisummer.com/static/425fe4453b2e763153350c7bf17e921d/f422e/ppo_trpo.jpg"
+      "https://images.unsplash.com/photo-1558981806-ec527fa84c39?q=80&w=1974&auto=format&fit=crop"
   }
 ];
 
