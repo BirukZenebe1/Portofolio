@@ -76,18 +76,23 @@ const skills = [
 const workflow = [
   {
     step: "01",
-    title: "Problem Framing",
-    text: "Translate vague business goals into measurable ML tasks and success metrics."
+    title: "Scope & KPI Mapping",
+    text: "Turn product goals into measurable ML metrics with clear constraints and success criteria."
   },
   {
     step: "02",
-    title: "Rapid Prototyping",
-    text: "Ship minimal working baselines quickly, then iterate with data-driven tuning."
+    title: "Baseline to Iteration",
+    text: "Ship a baseline fast, validate with experiments, then improve with targeted model and data changes."
   },
   {
     step: "03",
-    title: "Deployment & Monitoring",
-    text: "Automate model pipelines and monitor performance drift in production settings."
+    title: "Production Hardening",
+    text: "Package pipelines, automate delivery, and monitor drift, latency, and quality in production."
+  },
+  {
+    step: "04",
+    title: "Business Feedback Loop",
+    text: "Use usage signals and stakeholder feedback to prioritize the next model and UX improvements."
   }
 ];
 
@@ -234,8 +239,11 @@ export default function Portfolio() {
         </section>
 
         <section>
-          <SectionTitle>Workflow</SectionTitle>
-          <div className="grid gap-6 md:grid-cols-3">
+          <SectionTitle>How I Build AI Products</SectionTitle>
+          <p className="mx-auto mb-8 max-w-3xl text-center text-slate-600 dark:text-slate-300">
+            A practical delivery flow I use to ship ML systems from idea to production.
+          </p>
+          <div className="grid gap-6 md:grid-cols-2">
             {workflow.map((item, index) => (
               <motion.div
                 key={item.title}
