@@ -28,6 +28,14 @@ const projects = [
     link: "https://merkatoai.netlify.app",
     image:
       "https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1?q=80&w=1974&auto=format&fit=crop"
+  },
+  {
+    title: "Real-Time Ride Events Pipeline",
+    description:
+      "Streams ride events from PostgreSQL to Kafka, processes them with Spark Structured Streaming, and writes Parquet outputs for analytics.",
+    link: "https://github.com/BirukZenebe1/real_time_pipeline",
+    image:
+      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1974&auto=format&fit=crop"
   }
 ];
 
