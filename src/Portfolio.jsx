@@ -6,22 +6,6 @@ import ThemeToggle from "./components/ui/ThemeToggle";
 
 const projects = [
   {
-    title: "Medical Chatbot UI",
-    description:
-      "LLaMA 2 medical assistant interface built with Gradio and structured prompts for safer clinical-style interactions.",
-    link: "https://huggingface.co/spaces/brkznb/Medicalchatbot",
-    image:
-      "https://plus.unsplash.com/premium_photo-1732628348854-56a54f1da2ad?q=80&w=1974&auto=format&fit=crop"
-  },
-  {
-    title: "Automated ML Pipeline",
-    description:
-      "AWS Lambda and S3-based workflow that trains and evaluates Random Forest models, then sends automated reports.",
-    link: "https://github.com/BirukZenebe1/Automated-Random-Forest-Pipeline-Lambda-function-",
-    image:
-      "https://plus.unsplash.com/premium_photo-1682124651258-410b25fa9dc0?q=80&w=2821&auto=format&fit=crop"
-  },
-  {
     title: "Merkato AI",
     description:
       "End-to-end personalized e-commerce recommendation experience with user profiling, filtering, and product flow.",
@@ -36,6 +20,22 @@ const projects = [
     link: "https://github.com/BirukZenebe1/real_time_pipeline",
     image:
       "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1974&auto=format&fit=crop"
+  },
+  {
+    title: "Medical Chatbot UI",
+    description:
+      "LLaMA 2 medical assistant interface built with Gradio and structured prompts for safer clinical-style interactions.",
+    link: "https://huggingface.co/spaces/brkznb/Medicalchatbot",
+    image:
+      "https://plus.unsplash.com/premium_photo-1732628348854-56a54f1da2ad?q=80&w=1974&auto=format&fit=crop"
+  },
+  {
+    title: "Automated ML Pipeline",
+    description:
+      "AWS Lambda and S3-based workflow that trains and evaluates Random Forest models, then sends automated reports.",
+    link: "https://github.com/BirukZenebe1/Automated-Random-Forest-Pipeline-Lambda-function-",
+    image:
+      "https://plus.unsplash.com/premium_photo-1682124651258-410b25fa9dc0?q=80&w=2821&auto=format&fit=crop"
   }
 ];
 
@@ -75,8 +75,8 @@ const skills = [
   "AWS Lambda",
   "SageMaker",
   "LLM Fine-Tuning",
-  "MLflow",
-  "Weights & Biases",
+  "Kafka",
+  "Spark",
   "SQL / PostgreSQL",
   "Data Visualization"
 ];
